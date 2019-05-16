@@ -1,0 +1,15 @@
+[package]
+name = "cantor_map"
+version = "0.1.0"
+authors = ["Thomas Zumsteg <thomas.zumsteg@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+[lib]
+name = "cantor"
+path = "src/lib.rs"
+
+[[bin]]
+name = "cantor_map"
+path = "src/main.rs"
