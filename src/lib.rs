@@ -1,10 +1,9 @@
 use std::ops::Add;
-use std::hash::Hash;
 
-#[derive(Debug, PartialEq, Eq, Hash)]
+#[derive(Debug, PartialEq, Eq, Hash, Clone, Copy)]
 pub struct Point {
-    x: i32,
-    y: i32
+    pub x: i32,
+    pub y: i32
 }
 
 impl Point {
